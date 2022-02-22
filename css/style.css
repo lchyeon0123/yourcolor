@@ -10,6 +10,11 @@ body {
     border-radius: 10px;
     border: solid 1.5px #f6f7fa;
     background-color: #f6f7fa;
+    background-image: url('https://cdn.jsdelivr.net/gh/thesimplegithub/mycolor-hosting/images/background.svg');
+    background-size : cover;
+}
+#no-background {
+  background-image: none;
 }
 .file-upload-btn {
   width: 100%;
@@ -45,7 +50,6 @@ body {
 #loading {
   display: none;
 }
-
 .file-upload-input {
   position: absolute;
   margin: 0;
@@ -176,6 +180,7 @@ body {
 .youtube-icon {
     width: 30px;
     height: 27.262px;
+    margin-left: 0.5rem;
 }
 
 .upload {
@@ -388,7 +393,132 @@ body {
     color: #31849b;
     font-size: 1.2rem;
 }
-
+/* twoplus oneplus one two three meat series css*/
+/* 1++ */
+.twoplus-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(117, 204, 84, 0.2);
+}
+.twoplus-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(117, 204, 84, 1);
+}
+.twoplus-meat-title {
+  color: #3ba363;
+}
+.twoplus-meat-celeb {
+  color: #3ba363;
+  font-size: 1.2rem;
+}
+/* 1+ */
+.oneplus-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(27, 175, 234, 0.2);
+}
+.oneplus-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(27, 175, 234, 1);
+}
+.oneplus-meat-title {
+  color: #548dd4;
+}
+.oneplus-meat-celeb {
+  color: #548dd4;
+  font-size: 1.2rem;
+}
+/* 1 */
+.one-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(235, 166, 190, 0.2);
+}
+.one-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(235, 166, 190, 1);
+}
+.one-meat-title {
+  color: #e56995;
+}
+.one-meat-celeb {
+  color: #e56995;
+  font-size: 1.2rem;
+}
+/* 2 */
+.two-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(251, 176, 59, 0.2);
+}
+.two-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(251, 176, 59, 1);
+}
+.two-meat-title {
+  color: #ff6c0a;
+}
+.two-meat-celeb {
+  color: #ff6c0a;
+  font-size: 1.2rem;
+}
+/* 3 */
+.three-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(195, 140, 102, 0.2);
+}
+.three-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(195, 140, 102, 1);
+}
+.three-meat-title {
+  color: #9b6b43;
+}
+.three-meat-celeb {
+  color: #9b6b43;
+  font-size: 1.2rem;
+}
 /* gender */
 input#gender {
   display: none;
