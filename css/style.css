@@ -393,6 +393,107 @@ body {
     color: #31849b;
     font-size: 1.2rem;
 }
+/* Spring Summer Fall Winter css */
+/* Spring */
+.Spring-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(235, 166, 190, 0.2);
+}
+.Spring-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(235, 166, 190, 1);
+}
+.Spring-color-title {
+  color: #e56995;
+}
+.Spring-color-celeb {
+  color: #e56995;
+  font-size: 1.2rem;
+}
+/* Summer */
+.Summer-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(117, 204, 84, 0.2);
+}
+.Summer-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(117, 204, 84, 1);
+}
+.Summer-color-title {
+  color: #3ba363;
+}
+.Summer-color-celeb {
+  color: #3ba363;
+  font-size: 1.2rem;
+}
+/* Fall */
+.Fall-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(251, 176, 59, 0.2);
+}
+.Fall-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(251, 176, 59, 1);
+}
+.Fall-color-title {
+  color: #ff6c0a;
+}
+.Fall-color-celeb {
+  color: #ff6c0a;
+  font-size: 1.2rem;
+}
+/* Winter */
+.Winter-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(27, 175, 234, 0.2);
+}
+.Winter-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(27, 175, 234, 1);
+}
+.Winter-color-title {
+  color: #548dd4;
+}
+.Winter-color-celeb {
+  color: #548dd4;
+  font-size: 1.2rem;
+}
 /* twoplus oneplus one two three meat series css*/
 /* 1++ */
 .twoplus-box {

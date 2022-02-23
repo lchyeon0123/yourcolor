@@ -230,22 +230,22 @@
             } else {
                 switch (probabilityList[0].className) {
                     case "Spring":
-                        resultTitle = "당신의 결과는 봄 웜톤 입니다."
+                        resultTitle = "당신의 결과는 \"봄 웜톤\" 입니다."
                         resultExplain = "봄 웜톤 사람들은 밝고 사랑스러운 이미지를 가지고 있다. 피부톤은 골드, 피치 계열인 편이다."
                         resultCeleb = "봄 웜톤 연예인: 로제, 조이, 수지, 박민영, 이성경"
                         break;
                     case "Summer":
-                        resultTitle = "당신의 결과는 여름 쿨톤입니다."
+                        resultTitle = "당신의 결과는 \"여름 쿨톤\"입니다."
                         resultExplain = "여름 쿨톤 사람들은 청순한 이미지를 가지고 있다. 피부톤은 푸른빛, 보라빛의 베이스를 가지고 있는 편이다."
                         resultCeleb = "여름 쿨톤 연예인: 안소희(원더걸스), 오연서, 한예슬, 이성경, 이효리"
                         break;
                     case "Fall":
-                        resultTitle = "당신의 결과는 가을웜톤입니다."
+                        resultTitle = "당신의 결과는 \"가을 웜톤\"입니다."
                         resultExplain = "가을 웜톤 사람들은 성숙하고 분위기 있는 이미지를 가지고 있다. 피부톤은 골드, 피치 계열인 편이다."
                         resultCeleb = "가을 웜톤 연예인: 제니, 박신혜, 한효주, 하연수, 이효리, 화사, 김유전, 솔빈"
                         break;
                     case "Winter":
-                        resultTitle = "당신의 결과는 겨울 쿨톤입니다."
+                        resultTitle = "당신의 결과는 \"겨울 쿨톤\"입니다."
                         resultExplain = "겨울 쿨톤 사람들은 도회적이면서도 카리스마 있는 이미지를 가지고 있다. 피부톤은 푸른빛, 보라빛의 베이스를 가지고 있는 편이다."
                         resultCeleb = "겨울 쿨톤 연예인: 현아, 브레이브걸스 유나, 손나은, 정은채, 이하늬, 뷔, 지수, 유리"
                         break;        
@@ -256,9 +256,9 @@
                 }
             }
             //grade 값을 가져와 NFT에 저장하기 위해 'meat-grade'라는 id를 부여했다.
-            var title = "<div class='" + probabilityList[0].className + "-meat-title' id='meat-grade'>" + resultTitle + "</div>"
+            var title = "<div class='" + probabilityList[0].className + "-color-title' id='color-grade'>" + resultTitle + "</div>"
             var explain = "<div class='animal-explain pt-2'>" + resultExplain + "</div>"
-            var celeb = "<div class='" + probabilityList[0].className + "-meat-celeb pt-2 pb-2'>" + resultCeleb + "</div>"
+            var celeb = "<div class='" + probabilityList[0].className + "-color-celeb pt-2 pb-2'>" + resultCeleb + "</div>"
             $('.result-message').html(title + explain + celeb);
             var barWidth;
             for (let i = 0; i < maxPredictions; i++) {
